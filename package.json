@@ -1,6 +1,6 @@
 {
   "name": "imbored",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package returns a random activity with a number of participants and a dynamic type directly in your terminal, it works to kill the time when you are bored!",
   "main": "src/index.js",
   "scripts": {
