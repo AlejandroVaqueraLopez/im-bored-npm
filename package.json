@@ -1,0 +1,25 @@
+{
+  "name": "imbored",
+  "version": "1.0.0",
+  "description": "This npm package returns a random activity to do if you are bored!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"node src/index.js"
+  },
+  "keywords": [
+    "bored",
+    "activity",
+    "activities",
+    "time",
+    "day",
+    "happy"
+  ],
+  "author": "Vaquera Lopez Alejandro",
+  "license": "MIT",
+  "bin": {
+    "imBored" : "./bin/global.js"
+  },
+  "preferGlobal":true
+
+}
