@@ -1,11 +1,11 @@
 {
   "name": "imbored",
   "version": "1.0.0",
-  "description": "This npm package returns a random activity to do if you are bored!",
+  "description": "This package returns a random activity with a number of participants and a dynamic type directly in your terminal, it works to kill the time when you are bored!",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"node src/index.js"
+    "build": "node src/index.js"
   },
   "keywords": [
     "bored",
@@ -18,8 +18,15 @@
   "author": "Vaquera Lopez Alejandro",
   "license": "MIT",
   "bin": {
-    "imBored" : "./bin/global.js"
+    "imBored": "bin/global.js"
   },
-  "preferGlobal":true
-
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroVaqueraLopez/im-bored-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlejandroVaqueraLopez/im-bored-npm/issues"
+  },
+  "homepage": "https://github.com/AlejandroVaqueraLopez/im-bored-npm#readme"
 }
