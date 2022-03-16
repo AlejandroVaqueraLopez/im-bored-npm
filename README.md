@@ -11,7 +11,7 @@ npm install -g imbored
 # Usage
 
 ```bash
-npm start imBored
+npx imbored
 ```
 
 # Contributing
